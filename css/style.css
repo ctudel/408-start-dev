@@ -2,3 +2,13 @@ h1{
   border-color: #d3e644;
   border-style: dashed;
 }
+
+button {
+  width: 200px;
+  height: 100px;
+  background-color: #d3e644
+}
+
+button:hover {
+  background: #ddd;
+}
