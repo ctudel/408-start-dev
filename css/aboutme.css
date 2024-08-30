@@ -1,0 +1,64 @@
+@keyframes glow {
+  0%, 100% {
+    background-color: #f4b700;
+    color: #000000;
+  }
+  50% {
+    background-color: #fff;
+    color: #000;
+  }
+}
+
+#hello {
+  background-color: #f4b700;
+  animation: glow 3s infinite;
+}
+
+body {
+  color: #fff; 
+  background-color:#0A0A0A;
+  padding-left: 20%;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 10rem;
+  height: auto;
+  transition: 0.7s;
+}
+
+input:hover {
+  background-color: #f4b700;
+}
+
+.header {
+  display: flex;
+  padding: 10px;
+  gap: 5vw;
+  font-size: 1.5rem;
+}
+
+.header img {
+  width: 150px;
+  height: auto;
+}
+
+.info {
+  line-height:2rem;
+  max-width: 28rem;
+}
+
+.info li {
+  padding: 10px;
+}
+
+.inactive {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column-reverse;
+  }
+}
