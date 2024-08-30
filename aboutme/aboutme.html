@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About Chris</title>
+    <link rel="stylesheet" href="../css/aboutme.css">
+</head>
+<body> 
+    <!-- Header with image -->
+    <div class="header">    
+      <h1>About Me, because I am me.</h1> 
+      <img src="./../img/strawhat.jpeg" alt="straw hat" />
+    </div>
+
+
+    <!-- Collection of buttons -->
+    <div class="buttons">    
+      <input type="button" onClick="window.location.href = './../index.html'" value="Home Page"> 
+      <input type="button" id="future" value="My Future"/>
+      <input type="button" id="job" value="Current Web Dev Job?"/>
+      <input type="button" id="hello" value="Say Hello!" />
+    </div>
+    
+
+    <!-- Unordered list of info -->
+    <ul class="info">
+      <li>Name: <strong>Chris Tudela</strong></li>      
+      <li class="inactive" id="job-info">At the moment, I do work as a web dev. Most of the time, I code up emails, but occassionally I will need to develop web pages with all the nitty gritty. I felt like this class could help propel that career, if I decide that's the direction I want to go.</li>
+      <li class="inactive" id="future-info">Expected graduation date: December, 2025</li>
+      <li class="inactive" id="future-info">I was fortunate enough to get a junior web dev role and that is what I currently am doing right now. See more on this after clicking the <em>'Current web Dev Job?'</em> button</li>    
+    </ul>
+
+    <script type="module" src="./aboutme.js"/>    
+    <script type="module" src="../js/main.js"></script>
+</body>
+</html>
